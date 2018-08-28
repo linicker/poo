@@ -14,6 +14,7 @@
 			return $this->genero;
 		}
 
+		
 		// SETERS
 
 		public function setNome($nome){
@@ -25,8 +26,11 @@
 		public function setGenero($genero){
 			$this->genero = $genero;
 		}
-
-
+	
+		
+		// METODOS
+		
+		
 		public function dormir(){
 			echo "Dormindo.. \n";
 		}
