@@ -1,7 +1,14 @@
 <?php
+require_once 'pessoa.php';
 
 $obj = new pessoa;
 
-$obj->nome("Linicker");
-$obj->idade("26");
-$obj->genero("Homem");
+$obj->dormir();
+
+/* 
+$obj->setNome("Linicker");
+$obj->setIdade("26");
+$obj->setGenero("Homem");
+
+$obj->getNome();
+*/

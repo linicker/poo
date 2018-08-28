@@ -1,6 +1,6 @@
 <?php
 	class pessoa{
-		private $nome, $idade, $genero;
+		public $nome, $idade, $genero;
 
 		// GETTRS
 
@@ -28,12 +28,12 @@
 
 
 		public function dormir(){
-			echo "Dormindo..";
+			echo "Dormindo.. \n";
 		}
 		public function comer(){
-			echo "Comendo..";	
+			echo "Comendo.. \n";	
 		}
 		public function andar(){
-			echo "Andando..";
+			echo "Andando.. \n";
 		}
 	}
